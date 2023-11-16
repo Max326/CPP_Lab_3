@@ -1,0 +1,25 @@
+#include "Figure.hpp"
+#include "math.h"
+
+class Circle : public Figure
+{
+public:
+	Circle() {
+		std::cout << "circle created" << std::endl;
+	};
+	Circle(double r) : Figure(calcSurface(r)) {
+		std::cout << "circle created" << std::endl;
+	};
+
+	~Circle() {};
+
+	double calcSurface(double r) {
+		double s;
+		return s = M_PI * pow(r, 2);
+	};
+
+	void id() const override {
+		std::cout << "figure type: circle" << std::endl;
+		std::cout << "surface area is: " << surface << std::endl;
+	}
+};
