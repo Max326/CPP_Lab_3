@@ -11,7 +11,9 @@ public:
 		std::cout << "circle created" << std::endl;
 	};
 
-	~Circle() {};
+	virtual ~Circle() {
+		std::cout << "circle incinerated" << std::endl;
+	};
 
 	double calcSurface(double r) {
 		double s;

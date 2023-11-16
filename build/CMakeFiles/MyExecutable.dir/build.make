@@ -69,52 +69,10 @@ include CMakeFiles/MyExecutable.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyExecutable.dir/flags.make
 
-CMakeFiles/MyExecutable.dir/src/Circle.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
-CMakeFiles/MyExecutable.dir/src/Circle.cpp.o: ../src/Circle.cpp
-CMakeFiles/MyExecutable.dir/src/Circle.cpp.o: CMakeFiles/MyExecutable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyExecutable.dir/src/Circle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyExecutable.dir/src/Circle.cpp.o -MF CMakeFiles/MyExecutable.dir/src/Circle.cpp.o.d -o CMakeFiles/MyExecutable.dir/src/Circle.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/Circle.cpp
-
-CMakeFiles/MyExecutable.dir/src/Circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyExecutable.dir/src/Circle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Projects/CPP-practice/Lab3/src/Circle.cpp > CMakeFiles/MyExecutable.dir/src/Circle.cpp.i
-
-CMakeFiles/MyExecutable.dir/src/Circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyExecutable.dir/src/Circle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Projects/CPP-practice/Lab3/src/Circle.cpp -o CMakeFiles/MyExecutable.dir/src/Circle.cpp.s
-
-CMakeFiles/MyExecutable.dir/src/Figure.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
-CMakeFiles/MyExecutable.dir/src/Figure.cpp.o: ../src/Figure.cpp
-CMakeFiles/MyExecutable.dir/src/Figure.cpp.o: CMakeFiles/MyExecutable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyExecutable.dir/src/Figure.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyExecutable.dir/src/Figure.cpp.o -MF CMakeFiles/MyExecutable.dir/src/Figure.cpp.o.d -o CMakeFiles/MyExecutable.dir/src/Figure.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/Figure.cpp
-
-CMakeFiles/MyExecutable.dir/src/Figure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyExecutable.dir/src/Figure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Projects/CPP-practice/Lab3/src/Figure.cpp > CMakeFiles/MyExecutable.dir/src/Figure.cpp.i
-
-CMakeFiles/MyExecutable.dir/src/Figure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyExecutable.dir/src/Figure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Projects/CPP-practice/Lab3/src/Figure.cpp -o CMakeFiles/MyExecutable.dir/src/Figure.cpp.s
-
-CMakeFiles/MyExecutable.dir/src/Square.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
-CMakeFiles/MyExecutable.dir/src/Square.cpp.o: ../src/Square.cpp
-CMakeFiles/MyExecutable.dir/src/Square.cpp.o: CMakeFiles/MyExecutable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyExecutable.dir/src/Square.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyExecutable.dir/src/Square.cpp.o -MF CMakeFiles/MyExecutable.dir/src/Square.cpp.o.d -o CMakeFiles/MyExecutable.dir/src/Square.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/Square.cpp
-
-CMakeFiles/MyExecutable.dir/src/Square.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyExecutable.dir/src/Square.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Projects/CPP-practice/Lab3/src/Square.cpp > CMakeFiles/MyExecutable.dir/src/Square.cpp.i
-
-CMakeFiles/MyExecutable.dir/src/Square.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyExecutable.dir/src/Square.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Projects/CPP-practice/Lab3/src/Square.cpp -o CMakeFiles/MyExecutable.dir/src/Square.cpp.s
-
 CMakeFiles/MyExecutable.dir/src/main.cpp.o: CMakeFiles/MyExecutable.dir/flags.make
 CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/MyExecutable.dir/src/main.cpp.o: CMakeFiles/MyExecutable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyExecutable.dir/src/main.cpp.o -MF CMakeFiles/MyExecutable.dir/src/main.cpp.o.d -o CMakeFiles/MyExecutable.dir/src/main.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/main.cpp
 
 CMakeFiles/MyExecutable.dir/src/main.cpp.i: cmake_force
@@ -127,21 +85,15 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.s: cmake_force
 
 # Object files for target MyExecutable
 MyExecutable_OBJECTS = \
-"CMakeFiles/MyExecutable.dir/src/Circle.cpp.o" \
-"CMakeFiles/MyExecutable.dir/src/Figure.cpp.o" \
-"CMakeFiles/MyExecutable.dir/src/Square.cpp.o" \
 "CMakeFiles/MyExecutable.dir/src/main.cpp.o"
 
 # External object files for target MyExecutable
 MyExecutable_EXTERNAL_OBJECTS =
 
-MyExecutable: CMakeFiles/MyExecutable.dir/src/Circle.cpp.o
-MyExecutable: CMakeFiles/MyExecutable.dir/src/Figure.cpp.o
-MyExecutable: CMakeFiles/MyExecutable.dir/src/Square.cpp.o
 MyExecutable: CMakeFiles/MyExecutable.dir/src/main.cpp.o
 MyExecutable: CMakeFiles/MyExecutable.dir/build.make
 MyExecutable: CMakeFiles/MyExecutable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MyExecutable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Projects/CPP-practice/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyExecutable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyExecutable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

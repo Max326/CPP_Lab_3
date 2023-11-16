@@ -12,7 +12,9 @@ public:
 		std::cout << "square created" << std::endl;
 	};
 
-	~Square() {};
+	virtual ~Square() {
+		std::cout << "square incinerated" << std::endl;
+	};
 
 	double calcSurface(double a) {
 		double s;

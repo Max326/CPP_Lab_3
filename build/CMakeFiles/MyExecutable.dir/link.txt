@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/MyExecutable.dir/src/Circle.cpp.o CMakeFiles/MyExecutable.dir/src/Figure.cpp.o CMakeFiles/MyExecutable.dir/src/Square.cpp.o CMakeFiles/MyExecutable.dir/src/main.cpp.o -o MyExecutable 
+/usr/bin/c++ -g CMakeFiles/MyExecutable.dir/src/main.cpp.o -o MyExecutable 

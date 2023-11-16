@@ -8,9 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/max/Projects/CPP-practice/Lab3/src/Circle.cpp" "CMakeFiles/MyExecutable.dir/src/Circle.cpp.o" "gcc" "CMakeFiles/MyExecutable.dir/src/Circle.cpp.o.d"
-  "/home/max/Projects/CPP-practice/Lab3/src/Figure.cpp" "CMakeFiles/MyExecutable.dir/src/Figure.cpp.o" "gcc" "CMakeFiles/MyExecutable.dir/src/Figure.cpp.o.d"
-  "/home/max/Projects/CPP-practice/Lab3/src/Square.cpp" "CMakeFiles/MyExecutable.dir/src/Square.cpp.o" "gcc" "CMakeFiles/MyExecutable.dir/src/Square.cpp.o.d"
   "/home/max/Projects/CPP-practice/Lab3/src/main.cpp" "CMakeFiles/MyExecutable.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyExecutable.dir/src/main.cpp.o.d"
   )
 

@@ -1,21 +1,6 @@
 [
 {
   "directory": "/home/max/Projects/CPP-practice/Lab3/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/MyExecutable.dir/src/Circle.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/Circle.cpp",
-  "file": "/home/max/Projects/CPP-practice/Lab3/src/Circle.cpp"
-},
-{
-  "directory": "/home/max/Projects/CPP-practice/Lab3/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/MyExecutable.dir/src/Figure.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/Figure.cpp",
-  "file": "/home/max/Projects/CPP-practice/Lab3/src/Figure.cpp"
-},
-{
-  "directory": "/home/max/Projects/CPP-practice/Lab3/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/MyExecutable.dir/src/Square.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/Square.cpp",
-  "file": "/home/max/Projects/CPP-practice/Lab3/src/Square.cpp"
-},
-{
-  "directory": "/home/max/Projects/CPP-practice/Lab3/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/MyExecutable.dir/src/main.cpp.o -c /home/max/Projects/CPP-practice/Lab3/src/main.cpp",
   "file": "/home/max/Projects/CPP-practice/Lab3/src/main.cpp"
 }

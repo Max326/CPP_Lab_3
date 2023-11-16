@@ -146,6 +146,7 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
+ /home/max/Projects/CPP-practice/Lab3/src/GeoEntity.hpp \
  /home/max/Projects/CPP-practice/Lab3/src/Circle.hpp \
  /home/max/Projects/CPP-practice/Lab3/src/Figure.hpp \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \

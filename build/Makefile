@@ -129,78 +129,6 @@ MyExecutable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/build
 .PHONY : MyExecutable/fast
 
-src/Circle.o: src/Circle.cpp.o
-.PHONY : src/Circle.o
-
-# target to build an object file
-src/Circle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Circle.cpp.o
-.PHONY : src/Circle.cpp.o
-
-src/Circle.i: src/Circle.cpp.i
-.PHONY : src/Circle.i
-
-# target to preprocess a source file
-src/Circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Circle.cpp.i
-.PHONY : src/Circle.cpp.i
-
-src/Circle.s: src/Circle.cpp.s
-.PHONY : src/Circle.s
-
-# target to generate assembly for a file
-src/Circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Circle.cpp.s
-.PHONY : src/Circle.cpp.s
-
-src/Figure.o: src/Figure.cpp.o
-.PHONY : src/Figure.o
-
-# target to build an object file
-src/Figure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Figure.cpp.o
-.PHONY : src/Figure.cpp.o
-
-src/Figure.i: src/Figure.cpp.i
-.PHONY : src/Figure.i
-
-# target to preprocess a source file
-src/Figure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Figure.cpp.i
-.PHONY : src/Figure.cpp.i
-
-src/Figure.s: src/Figure.cpp.s
-.PHONY : src/Figure.s
-
-# target to generate assembly for a file
-src/Figure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Figure.cpp.s
-.PHONY : src/Figure.cpp.s
-
-src/Square.o: src/Square.cpp.o
-.PHONY : src/Square.o
-
-# target to build an object file
-src/Square.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Square.cpp.o
-.PHONY : src/Square.cpp.o
-
-src/Square.i: src/Square.cpp.i
-.PHONY : src/Square.i
-
-# target to preprocess a source file
-src/Square.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Square.cpp.i
-.PHONY : src/Square.cpp.i
-
-src/Square.s: src/Square.cpp.s
-.PHONY : src/Square.s
-
-# target to generate assembly for a file
-src/Square.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyExecutable.dir/build.make CMakeFiles/MyExecutable.dir/src/Square.cpp.s
-.PHONY : src/Square.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -234,15 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyExecutable"
-	@echo "... src/Circle.o"
-	@echo "... src/Circle.i"
-	@echo "... src/Circle.s"
-	@echo "... src/Figure.o"
-	@echo "... src/Figure.i"
-	@echo "... src/Figure.s"
-	@echo "... src/Square.o"
-	@echo "... src/Square.i"
-	@echo "... src/Square.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

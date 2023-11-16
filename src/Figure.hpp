@@ -2,8 +2,9 @@
 #define FIGURE_HPP
 
 #include <iostream>
+#include "GeoEntity.hpp"
 
-class Figure
+class Figure : public GeoEntity
 {
 public:
 	Figure() {
@@ -12,16 +13,18 @@ public:
 	Figure(double s) : surface(s) {
 		std::cout << "figure created" << std::endl;
 	}
-	~Figure() {};
+	virtual ~Figure() {
+		std::cout << "figure incinerated" << std::endl;
+	};
 
 	double getSurface() {
 		return surface;
 	};
 
-	virtual void id() const {
-		std::cout << "figure type undefined" << std::endl;
-		std::cout << "surface area is: " << surface << std::endl;
-	}
+	// virtual void id() const {
+	// 	std::cout << "figure type undefined" << std::endl;
+	// 	std::cout << "surface area is: " << surface << std::endl;
+	// }
 
 protected:
 	double surface;

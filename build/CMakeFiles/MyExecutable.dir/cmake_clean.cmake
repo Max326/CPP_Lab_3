@@ -1,10 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyExecutable.dir/src/Circle.cpp.o"
-  "CMakeFiles/MyExecutable.dir/src/Circle.cpp.o.d"
-  "CMakeFiles/MyExecutable.dir/src/Figure.cpp.o"
-  "CMakeFiles/MyExecutable.dir/src/Figure.cpp.o.d"
-  "CMakeFiles/MyExecutable.dir/src/Square.cpp.o"
-  "CMakeFiles/MyExecutable.dir/src/Square.cpp.o.d"
   "CMakeFiles/MyExecutable.dir/src/main.cpp.o"
   "CMakeFiles/MyExecutable.dir/src/main.cpp.o.d"
   "MyExecutable"
