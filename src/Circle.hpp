@@ -16,8 +16,7 @@ public:
 	};
 
 	double calcSurface(double r) {
-		double s;
-		return s = M_PI * pow(r, 2);
+		return M_PI * pow(r, 2);
 	};
 
 	void id() const override {

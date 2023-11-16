@@ -21,7 +21,7 @@ public:
 		return surface;
 	};
 
-	// virtual void id() const {
+	// void id() const override {
 	// 	std::cout << "figure type undefined" << std::endl;
 	// 	std::cout << "surface area is: " << surface << std::endl;
 	// }

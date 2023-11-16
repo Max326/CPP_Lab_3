@@ -32,6 +32,8 @@ int main() {
 
     delete f2;
 
+    // GeoEntity geoEntity;
+
 	return 0;
 }
 
