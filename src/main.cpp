@@ -2,6 +2,7 @@
 
 #include "Circle.hpp"
 #include "Figure.hpp"
+#include "FigureFactory.hpp"
 #include "FigureVector.hpp"
 #include "GeoEntity.hpp"
 #include "Square.hpp"
@@ -34,19 +35,21 @@ int main() {
 
 	// GeoEntity geoEntity;
 
-	FigureVector figureVector;
+	// FigureVector figureVector;
 
-	figureVector[0] = new Circle(5);
+	// figureVector[0] = new Circle(5);
 
-    figureVector.push(new Square(10));
+	// figureVector.push(new Square(10));
 
-	figureVector.printVector();
+	// figureVector.printVector();
 
-    figureVector.pop();
+	// figureVector.pop();
 
-    figureVector.printVector();
+	// figureVector.printVector();
 
-    figureVector.printCounter();
+	// figureVector.printCounter();
+
+	Figure* mySquare = FigureFactory()("square", 11);
 
 	return 0;
 }

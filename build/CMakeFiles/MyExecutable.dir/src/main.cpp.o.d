@@ -172,5 +172,6 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/max/Projects/CPP-practice/Lab3/src/FigureVector.hpp \
- /home/max/Projects/CPP-practice/Lab3/src/Square.hpp
+ /home/max/Projects/CPP-practice/Lab3/src/FigureFactory.hpp \
+ /home/max/Projects/CPP-practice/Lab3/src/Square.hpp \
+ /home/max/Projects/CPP-practice/Lab3/src/FigureVector.hpp

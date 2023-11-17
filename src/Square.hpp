@@ -12,6 +12,7 @@ public:
 
 	Square(double a) : Figure(calcSurface(a)) {
 		std::cout << "square created" << std::endl;
+        id();
 	};
 
 	virtual ~Square() {

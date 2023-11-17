@@ -210,8 +210,9 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  ../src/FigureVector.hpp \
-  ../src/Square.hpp
+  ../src/FigureFactory.hpp \
+  ../src/Square.hpp \
+  ../src/FigureVector.hpp
 
 
 ../src/Square.hpp:
@@ -555,6 +556,8 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/bits/localefwd.h:
+
+../src/FigureFactory.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 

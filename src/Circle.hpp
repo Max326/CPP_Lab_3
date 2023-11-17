@@ -11,6 +11,7 @@ public:
 	};
 	Circle(double r) : Figure(calcSurface(r)) {
 		std::cout << "circle created" << std::endl;
+        id();
 	};
 
 	virtual ~Circle() {
