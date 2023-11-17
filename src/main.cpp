@@ -2,6 +2,7 @@
 
 #include "Circle.hpp"
 #include "Figure.hpp"
+#include "FigureVector.hpp"
 #include "GeoEntity.hpp"
 #include "Square.hpp"
 
@@ -15,7 +16,7 @@ int main() {
 	// Circle c1(5);
 
 	// c1.id();
-	// Square s1(10);
+	Square s1(10);
 
 	// s1.id();
 
@@ -32,6 +33,20 @@ int main() {
 	delete f2;
 
 	// GeoEntity geoEntity;
+
+	FigureVector figureVector;
+
+	figureVector[0] = new Circle(5);
+
+    figureVector.push(new Square(10));
+
+	figureVector.printVector();
+
+    figureVector.pop();
+
+    figureVector.printVector();
+
+    figureVector.printCounter();
 
 	return 0;
 }
