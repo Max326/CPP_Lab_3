@@ -1,16 +1,16 @@
 #include <iostream>
 
-#include "GeoEntity.hpp"
 #include "Circle.hpp"
 #include "Figure.hpp"
+#include "GeoEntity.hpp"
 #include "Square.hpp"
 
 void id(const Figure& f);
 
 int main() {
-	// Figure figure(45);
+	Figure figure(45);
 
-	// figure.id();
+	figure.id();
 
 	// Circle c1(5);
 
@@ -25,14 +25,13 @@ int main() {
 
 	// f1.id();
 
+	Figure* f2 = new Square(10);
 
-    Figure* f2 = new Square(10);
+	// f2 = dynamic_cast<Circle*>(f2);
 
-    // f2 = dynamic_cast<Circle*>(f2);
+	delete f2;
 
-    delete f2;
-
-    // GeoEntity geoEntity;
+	// GeoEntity geoEntity;
 
 	return 0;
 }

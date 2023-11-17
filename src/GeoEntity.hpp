@@ -1,5 +1,4 @@
-#ifndef GEOENTITY_HPP
-#define GEOENTITY_HPP
+#pragma once
 
 class GeoEntity
 {
@@ -8,4 +7,3 @@ public:
     virtual ~GeoEntity(){}
 };
 
-#endif

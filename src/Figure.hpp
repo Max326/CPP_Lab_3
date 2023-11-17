@@ -1,5 +1,4 @@
-#ifndef FIGURE_HPP
-#define FIGURE_HPP
+#pragma once
 
 #include <iostream>
 #include "GeoEntity.hpp"
@@ -21,13 +20,11 @@ public:
 		return surface;
 	};
 
-	// void id() const override {
-	// 	std::cout << "figure type undefined" << std::endl;
-	// 	std::cout << "surface area is: " << surface << std::endl;
-	// }
+	void id() const override {
+		std::cout << "figure type undefined" << std::endl;
+		std::cout << "surface area is: " << surface << std::endl;
+	}
 
 protected:
 	double surface;
 };
-
-#endif	// FIGURE_HPP
