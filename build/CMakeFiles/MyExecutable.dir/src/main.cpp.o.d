@@ -146,9 +146,9 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/max/Projects/CPP-practice/Lab3/src/GeoEntity.hpp \
  /home/max/Projects/CPP-practice/Lab3/src/Circle.hpp \
  /home/max/Projects/CPP-practice/Lab3/src/Figure.hpp \
+ /home/max/Projects/CPP-practice/Lab3/src/GeoEntity.hpp \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -172,4 +172,5 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /home/max/Projects/CPP-practice/Lab3/src/FigureVector.hpp \
  /home/max/Projects/CPP-practice/Lab3/src/Square.hpp
