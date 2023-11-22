@@ -6,7 +6,6 @@
 #include "Figure.hpp"
 #include "math.h"
 
-
 class Square : public Figure
 {
 public:
