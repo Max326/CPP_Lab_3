@@ -1,7 +1,10 @@
-#pragma once
+#ifndef FIGUREVECTOR_HPP
+#define FIGUREVECTOR_HPP
+
 
 #include <new>
 #include "Figure.hpp"
+
 
 class FigureVector
 {
@@ -25,7 +28,7 @@ public:
 				figurePtrTab[i] = nullptr;
 			}
 		}
-		std::cout << "destructor called" << std::endl;
+		//std::cout << "destructor called" << std::endl;
 	};
 
 	Figure*& operator[](int index) {
@@ -61,4 +64,18 @@ public:
         figurePtrTab[counter-1] = nullptr;
         --counter;
     }
+
+    void idAll(){
+        for(int i = 0; i < counter; i++) {
+            figurePtrTab[i]->id();
+        }
+    }
+
+    void visitAll(FigureVisitorBase& visitor){
+        for(int i = 0; i < counter; i++) {
+            figurePtrTab[i]->accept(visitor);
+        }
+    }
 };
+
+#endif

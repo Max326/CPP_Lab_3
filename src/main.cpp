@@ -1,18 +1,22 @@
 #include <iostream>
 
 #include "Circle.hpp"
-#include "Figure.hpp"
-#include "FigureFactory.hpp"
-#include "FigureVector.hpp"
-#include "GeoEntity.hpp"
 #include "Square.hpp"
+
+class FigureVisitorBase
+{
+public:
+	virtual void visit(Square &square) = 0;
+	virtual void visit(Circle &circle) = 0;
+};
+
 
 void id(const Figure& f);
 
 int main() {
 	Figure figure(45);
 
-	figure.id();
+	//figure.id();
 
 	// Circle c1(5);
 
@@ -35,11 +39,11 @@ int main() {
 
 	// GeoEntity geoEntity;
 
-	// FigureVector figureVector;
+	FigureVector figureVector;
 
-	// figureVector[0] = new Circle(5);
+	figureVector[0] = new Circle(5);
 
-	// figureVector.push(new Square(10));
+	figureVector.push(new Square(10));
 
 	// figureVector.printVector();
 
@@ -50,6 +54,9 @@ int main() {
 	// figureVector.printCounter();
 
 	Figure* mySquare = FigureFactory()("square", 11);
+    figureVector.push(mySquare);
+
+    figureVector.idAll();
 
 	return 0;
 }
