@@ -1,8 +1,11 @@
 #ifndef SQUARE_HPP
 #define SQUARE_HPP
 
+#pragma once
+
 #include "Figure.hpp"
 #include "math.h"
+
 
 class Square : public Figure
 {
@@ -28,7 +31,7 @@ public:
 		std::cout << "surface area is: " << surface << std::endl;
 	}
 
-	void accept(FigureVisitorBase& visitor) {
+	void accept(FigureVisitorBase& visitor) override {
 		visitor.visit(*this);
 	}
 };

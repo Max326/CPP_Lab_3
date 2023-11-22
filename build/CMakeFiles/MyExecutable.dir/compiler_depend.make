@@ -184,8 +184,6 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
   ../src/Circle.hpp \
   ../src/Figure.hpp \
   ../src/GeoEntity.hpp \
-  ../src/FigureVisitorBase.hpp \
-  ../src/Square.hpp \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -212,9 +210,12 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  ../src/FigureFactory.hpp \
+  ../src/FigureVisitorBase.hpp \
+  ../src/Square.hpp \
   ../src/FigureVector.hpp
 
+
+../src/Square.hpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -237,8 +238,6 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/math.h:
-
-../src/Square.hpp:
 
 ../src/Figure.hpp:
 
@@ -559,8 +558,6 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/bits/localefwd.h:
-
-../src/FigureFactory.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 

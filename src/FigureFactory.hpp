@@ -1,7 +1,9 @@
 #pragma once
-#include "Circle.hpp"
-#include "Figure.hpp"
-#include "Square.hpp"
+
+#include <iostream>
+class Circle;
+class Square;
+class Figure;
 
 class FigureFactory
 {

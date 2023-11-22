@@ -1,6 +1,9 @@
 #ifndef FIGUREVISITOR_HPP
 #define FIGUREVISITOR_HPP
 
+#pragma once
+
+#include <iostream>
 #include "FigureVisitorBase.hpp"
 
 class PrintingVisitor : public FigureVisitorBase{

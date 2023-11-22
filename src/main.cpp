@@ -2,19 +2,12 @@
 
 #include "Circle.hpp"
 #include "Square.hpp"
-
-class FigureVisitorBase
-{
-public:
-	virtual void visit(Square &square) = 0;
-	virtual void visit(Circle &circle) = 0;
-};
-
+#include "FigureVector.hpp"
 
 void id(const Figure& f);
 
 int main() {
-	Figure figure(45);
+	// Figure figure(45);
 
 	//figure.id();
 
@@ -31,11 +24,11 @@ int main() {
 
 	// f1.id();
 
-	Figure* f2 = new Square(10);
+	// Figure* f2 = new Square(10);
 
 	// f2 = dynamic_cast<Circle*>(f2);
 
-	delete f2;
+	// delete f2;
 
 	// GeoEntity geoEntity;
 
@@ -53,8 +46,8 @@ int main() {
 
 	// figureVector.printCounter();
 
-	Figure* mySquare = FigureFactory()("square", 11);
-    figureVector.push(mySquare);
+	// Figure* mySquare = FigureFactory()("square", 11);
+    // figureVector.push(mySquare);
 
     figureVector.idAll();
 

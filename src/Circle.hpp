@@ -1,9 +1,11 @@
 #ifndef CIRCLE_HPP
 #define CIRCLE_HPP
 
+#pragma once
+
 #include "Figure.hpp"
 #include "math.h"
-
+#include "FigureVisitorBase.hpp"
 
 class Circle : public Figure
 {
@@ -28,7 +30,7 @@ public:
 		std::cout << "surface area is: " << surface << std::endl;
 	}
 
-    void accept(FigureVisitorBase& visitor) {
+    void accept(FigureVisitorBase& visitor) override{
         visitor.visit(*this);
     }
 };

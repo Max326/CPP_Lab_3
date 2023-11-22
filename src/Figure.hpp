@@ -1,8 +1,12 @@
 #ifndef FIGURE_HPP
 #define FIGURE_HPP
 
+#pragma once
+
 #include <iostream>
 #include "GeoEntity.hpp"
+
+class FigureVisitorBase;
 
 
 class Figure : public GeoEntity
